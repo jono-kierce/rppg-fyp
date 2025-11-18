@@ -1,0 +1,580 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		10BEE1EA2E5EAC7D00687744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10BEE1D42E5EAC7B00687744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BEE1DB2E5EAC7B00687744;
+			remoteInfo = "rppg-app";
+		};
+		10BEE1F42E5EAC7D00687744 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10BEE1D42E5EAC7B00687744 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 10BEE1DB2E5EAC7B00687744;
+			remoteInfo = "rppg-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10BEE1DC2E5EAC7B00687744 /* rppg-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "rppg-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BEE1E92E5EAC7D00687744 /* rppg-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rppg-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		10BEE1F32E5EAC7D00687744 /* rppg-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "rppg-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		10BEE2242E5ED16F00687744 /* Exceptions for "rppg-app" folder in "rppg-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 10BEE1DB2E5EAC7B00687744 /* rppg-app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		10BEE1DE2E5EAC7B00687744 /* rppg-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				10BEE2242E5ED16F00687744 /* Exceptions for "rppg-app" folder in "rppg-app" target */,
+			);
+			path = "rppg-app";
+			sourceTree = "<group>";
+		};
+		10BEE1EC2E5EAC7D00687744 /* rppg-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "rppg-appTests";
+			sourceTree = "<group>";
+		};
+		10BEE1F62E5EAC7D00687744 /* rppg-appUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "rppg-appUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		10BEE1D92E5EAC7B00687744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BEE1E62E5EAC7D00687744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BEE1F02E5EAC7D00687744 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		10BEE1D32E5EAC7B00687744 = {
+			isa = PBXGroup;
+			children = (
+				10BEE1DE2E5EAC7B00687744 /* rppg-app */,
+				10BEE1EC2E5EAC7D00687744 /* rppg-appTests */,
+				10BEE1F62E5EAC7D00687744 /* rppg-appUITests */,
+				10BEE1DD2E5EAC7B00687744 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		10BEE1DD2E5EAC7B00687744 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				10BEE1DC2E5EAC7B00687744 /* rppg-app.app */,
+				10BEE1E92E5EAC7D00687744 /* rppg-appTests.xctest */,
+				10BEE1F32E5EAC7D00687744 /* rppg-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		10BEE1DB2E5EAC7B00687744 /* rppg-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BEE1FD2E5EAC7D00687744 /* Build configuration list for PBXNativeTarget "rppg-app" */;
+			buildPhases = (
+				10BEE1D82E5EAC7B00687744 /* Sources */,
+				10BEE1D92E5EAC7B00687744 /* Frameworks */,
+				10BEE1DA2E5EAC7B00687744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				10BEE1DE2E5EAC7B00687744 /* rppg-app */,
+			);
+			name = "rppg-app";
+			packageProductDependencies = (
+			);
+			productName = "rppg-app";
+			productReference = 10BEE1DC2E5EAC7B00687744 /* rppg-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		10BEE1E82E5EAC7D00687744 /* rppg-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BEE2002E5EAC7D00687744 /* Build configuration list for PBXNativeTarget "rppg-appTests" */;
+			buildPhases = (
+				10BEE1E52E5EAC7D00687744 /* Sources */,
+				10BEE1E62E5EAC7D00687744 /* Frameworks */,
+				10BEE1E72E5EAC7D00687744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BEE1EB2E5EAC7D00687744 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10BEE1EC2E5EAC7D00687744 /* rppg-appTests */,
+			);
+			name = "rppg-appTests";
+			packageProductDependencies = (
+			);
+			productName = "rppg-appTests";
+			productReference = 10BEE1E92E5EAC7D00687744 /* rppg-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		10BEE1F22E5EAC7D00687744 /* rppg-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10BEE2032E5EAC7D00687744 /* Build configuration list for PBXNativeTarget "rppg-appUITests" */;
+			buildPhases = (
+				10BEE1EF2E5EAC7D00687744 /* Sources */,
+				10BEE1F02E5EAC7D00687744 /* Frameworks */,
+				10BEE1F12E5EAC7D00687744 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				10BEE1F52E5EAC7D00687744 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				10BEE1F62E5EAC7D00687744 /* rppg-appUITests */,
+			);
+			name = "rppg-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "rppg-appUITests";
+			productReference = 10BEE1F32E5EAC7D00687744 /* rppg-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10BEE1D42E5EAC7B00687744 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					10BEE1DB2E5EAC7B00687744 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					10BEE1E82E5EAC7D00687744 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 10BEE1DB2E5EAC7B00687744;
+					};
+					10BEE1F22E5EAC7D00687744 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = 10BEE1DB2E5EAC7B00687744;
+					};
+				};
+			};
+			buildConfigurationList = 10BEE1D72E5EAC7B00687744 /* Build configuration list for PBXProject "rppg-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 10BEE1D32E5EAC7B00687744;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 10BEE1DD2E5EAC7B00687744 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				10BEE1DB2E5EAC7B00687744 /* rppg-app */,
+				10BEE1E82E5EAC7D00687744 /* rppg-appTests */,
+				10BEE1F22E5EAC7D00687744 /* rppg-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		10BEE1DA2E5EAC7B00687744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BEE1E72E5EAC7D00687744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BEE1F12E5EAC7D00687744 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		10BEE1D82E5EAC7B00687744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BEE1E52E5EAC7D00687744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10BEE1EF2E5EAC7D00687744 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10BEE1EB2E5EAC7D00687744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10BEE1DB2E5EAC7B00687744 /* rppg-app */;
+			targetProxy = 10BEE1EA2E5EAC7D00687744 /* PBXContainerItemProxy */;
+		};
+		10BEE1F52E5EAC7D00687744 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 10BEE1DB2E5EAC7B00687744 /* rppg-app */;
+			targetProxy = 10BEE1F42E5EAC7D00687744 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		10BEE1FB2E5EAC7D00687744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		10BEE1FC2E5EAC7D00687744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		10BEE1FE2E5EAC7D00687744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rppg-app/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera used to run RPPG.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rppg.rppg-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		10BEE1FF2E5EAC7D00687744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "rppg-app/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Camera used to run RPPG.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rppg.rppg-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		10BEE2012E5EAC7D00687744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rppg.rppg-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rppg-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rppg-app";
+			};
+			name = Debug;
+		};
+		10BEE2022E5EAC7D00687744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rppg.rppg-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/rppg-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/rppg-app";
+			};
+			name = Release;
+		};
+		10BEE2042E5EAC7D00687744 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rppg.rppg-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rppg-app";
+			};
+			name = Debug;
+		};
+		10BEE2052E5EAC7D00687744 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N7ZL288K84;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "rppg.rppg-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "rppg-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10BEE1D72E5EAC7B00687744 /* Build configuration list for PBXProject "rppg-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BEE1FB2E5EAC7D00687744 /* Debug */,
+				10BEE1FC2E5EAC7D00687744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BEE1FD2E5EAC7D00687744 /* Build configuration list for PBXNativeTarget "rppg-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BEE1FE2E5EAC7D00687744 /* Debug */,
+				10BEE1FF2E5EAC7D00687744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BEE2002E5EAC7D00687744 /* Build configuration list for PBXNativeTarget "rppg-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BEE2012E5EAC7D00687744 /* Debug */,
+				10BEE2022E5EAC7D00687744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		10BEE2032E5EAC7D00687744 /* Build configuration list for PBXNativeTarget "rppg-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				10BEE2042E5EAC7D00687744 /* Debug */,
+				10BEE2052E5EAC7D00687744 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10BEE1D42E5EAC7B00687744 /* Project object */;
+}

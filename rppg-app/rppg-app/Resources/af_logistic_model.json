@@ -1,0 +1,71 @@
+{
+  "features": [
+    {
+      "name": "mean_rr",
+      "scale_mean": 0.7489686742624678,
+      "scale_scale": 0.15740008713187328,
+      "coefficient": -1.2097641983517113
+    },
+    {
+      "name": "median_rr",
+      "scale_mean": 0.7157999999999998,
+      "scale_scale": 0.17014939653979672,
+      "coefficient": -0.7730392915671522
+    },
+    {
+      "name": "std_rr",
+      "scale_mean": 0.16543136008526152,
+      "scale_scale": 0.11376301968178484,
+      "coefficient": 0.6149589973405769
+    },
+    {
+      "name": "rmssd",
+      "scale_mean": 0.2265857920993249,
+      "scale_scale": 0.15990789095224364,
+      "coefficient": 0.017270849943209477
+    },
+    {
+      "name": "pnn50",
+      "scale_mean": 0.5456630920096082,
+      "scale_scale": 0.3277050676575041,
+      "coefficient": 5.531919685128944
+    },
+    {
+      "name": "hr_mean",
+      "scale_mean": 88.97122831555038,
+      "scale_scale": 18.85700010242805,
+      "coefficient": -1.9325205461652932
+    },
+    {
+      "name": "hr_std",
+      "scale_mean": 18.421130788452082,
+      "scale_scale": 13.485775339205368,
+      "coefficient": -0.7276954794413398
+    },
+    {
+      "name": "num_beats",
+      "scale_mean": 38.394642857142856,
+      "scale_scale": 8.481574980990457,
+      "coefficient": 1.3767964483760033
+    },
+    {
+      "name": "beats_per_second",
+      "scale_mean": 1.2801628053195144,
+      "scale_scale": 0.2827945779204608,
+      "coefficient": 1.3767964483760167
+    },
+    {
+      "name": "ppg_mean",
+      "scale_mean": 0.9694682905203342,
+      "scale_scale": 0.6882998951736274,
+      "coefficient": -0.12215952893239393
+    },
+    {
+      "name": "ppg_std",
+      "scale_mean": 0.22356385323299674,
+      "scale_scale": 0.1739976634994045,
+      "coefficient": 0.9247519174879631
+    }
+  ],
+  "intercept": 0.10710424569046696
+}
