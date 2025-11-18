@@ -6,13 +6,17 @@ Remote photoplethysmography (rPPG) iOS app for contactless heart-rate / HRV esti
 
     .
     ├── rppg-app/   # iOS app source code
-    └── docs/       # Submitted report(s), paper, presentation slides, etc.
+    ├── docs/       # Submitted report(s), paper, presentation slides, etc.
+    └── images/     # Example images
 
 ---
 
 ## rppg-app/ – iOS Application
 
 This folder contains the Xcode project for the iOS app.
+The app works by taking measurements across a number of timeframes. It then calculates average HR, HRV and uses an AF model to predict AF probability within the sample.
+This diagram probably explains the pipeline the best, please [read the final report](docs/Final%20Report.pdf) for a more in depth discussion.
+![App Pipeline](images/intro-hero-diagram-2.png)
 
 ---
 
@@ -30,7 +34,7 @@ This folder holds the artefacts submitted for assessment:
 ### Prerequisites
 
 - macOS with a recent version of Xcode installed
-- An iPhone (physical device recommended; camera access in the Simulator is limited)
+- An iPhone (physical device only- the simulator doesn't work as the camera can't be simulated)
 - Apple Developer account if you want to deploy to a physical device
 
 ### Build and Run
